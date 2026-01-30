@@ -67,7 +67,7 @@ struct MedicalView: View {
                         }
                         
                         // 119 신고하기 버튼
-                        NavigationLink(destination: EmergencyTimerView(emergencyType: "119")) {
+                        NavigationLink(destination: EmergencyTimerView(title: "구급", color: .green)) {
                             Text("119 신고하기")
                                 .font(.headline)
                                 .frame(maxWidth: .infinity, minHeight: 60)

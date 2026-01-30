@@ -50,7 +50,7 @@ struct KidnapView: View {
                 }
                 .padding(.horizontal, 20)
 
-                NavigationLink(destination: EmergencyTimerView(emergencyType: "112")){
+                NavigationLink(destination: EmergencyTimerView(title: "납치", color: .purple)){
                     Text("112 신고")
                     .font(.title3.bold())
                     .frame(maxWidth: .infinity, minHeight: 65)
